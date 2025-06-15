@@ -1,4 +1,11 @@
-package software.ulpgc.kata3;
+package software.ulpgc.kata3.app;
+
+import software.ulpgc.kata3.architecture.control.ToggleBarchartCommand;
+import software.ulpgc.kata3.architecture.io.FileTitleLoader;
+import software.ulpgc.kata3.architecture.io.MoviesBarchartLoader;
+import software.ulpgc.kata3.architecture.model.FromMapBarchartElementBuilder;
+import software.ulpgc.kata3.architecture.model.Title;
+import software.ulpgc.kata3.architecture.model.TsvTitleDeserializer;
 
 import java.io.File;
 import java.io.IOException;

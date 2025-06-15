@@ -1,4 +1,7 @@
-package software.ulpgc.kata3;
+package software.ulpgc.kata3.architecture.control;
+
+import software.ulpgc.kata3.architecture.view.BarchartDisplay;
+import software.ulpgc.kata3.architecture.io.BarchartLoader;
 
 public class ToggleBarchartCommand implements Command{
 

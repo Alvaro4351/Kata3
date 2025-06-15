@@ -1,4 +1,4 @@
-package software.ulpgc.kata3;
+package software.ulpgc.kata3.architecture.model;
 
 public class BarchartElement {
     private final String field;
